@@ -1,0 +1,5 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId"> 
+    <!-- http://sfdcmonkey.com/2017/04/16/add-lightning-component-lightning-action/ -->
+   <center><b>This is a Lightning component </b></center>
+   {!v.recordId}
+</aura:component>
